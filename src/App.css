@@ -1,38 +1,427 @@
-.App {
-  text-align: center;
+html{
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#navLinksContainer{
+  /* border: red solid; */
   display: flex;
   flex-direction: column;
+  align-items:flex-end;
+  /* height: 400px; */
+  /* width: fit-content; */
+  /* list-style-type: none; */
+  position: fixed;
+  top: 38vh;
+  margin-left: 40px;
+  text-align: end;
+  line-height: 40px;
+
+}
+
+#navLinksContainer div{
+  margin: 0 0 0 0;
+  height: fit-content;
+  width: fit-content;
+  /* border: red solid; */
+  
+}
+
+.navLink{
+  font-weight: bold;
+  font-size: 37px;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.introductionTextContainer{
+  /* border: 2px rgb(105, 66, 66) solid; */
+  margin-left: 250px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#introductionText{
+  font-size: 65px;
+  font-weight: bolder;
+  /* border: blue solid; */
+  justify-content: center;
+ 
+}
+
+/* ABOUT ME========== */
+
+
+#aboutMeContainer{
+  margin-left: 200px;
+  /* border: red solid; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+#aboutMeText{
+  padding: 30px;
+  background-image: linear-gradient(to right, rgb(130, 176, 255) , rgb(16, 185, 247));
+  border-radius: 20px;
+  color: white;
+  margin-left: 0px;
+
+  /* border: blue solid; */
+  box-shadow: 1px 3px 18px rgb(191, 191, 191);
+  height: fit-content;
+  width: 550px;
+}
+#aboutMeText h1{
+  margin: 0 0 0 0;
+  /* border: red solid; */
+}
+
+#aboutMeText p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icons{
+ font-size: 60px;
+ 
+}
+
+/* PROJECTSS------------- */
+
+#projectsContainer{
+  height: fit-content;
+  /* border: blue solid; */
+  margin-left: 200px;
+}
+
+#projectsTitle{
+  font-size: 60px;
+  margin-left: 7vw;
+  margin-bottom: 13vh;
+  
+}
+
+.projectBoxContainer{
+  /* border: red solid; */
+  height: 50vh;
+  display: flex;
+  margin-bottom: 40vh;
+}
+
+.infoContainer{
+  /* border: blue solid; */
+  width: 40%;
+  display: flex;
+  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.infoContainerThreeWay{
+  /* border: brown solid; */
+  width: 300px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.projectTitleContainer{
+  /* border: red solid; */
+  height: fit-content;
+  margin: 0 0 0 0;
+}
+.projectTitleContainer h3{
+  /* border: red solid; */
+  height: fit-content;
+  margin: 0 0 0 0;
+  font-size: 30px;
+}
+
+
+.projectTextContainer p{
+  /* border: red solid; */
+  font-weight: bold;
+  margin: 0 0 0 0;
+  text-align:left;
+  font-size: 20px;
+
+}
+
+
+
+
+
+.screenShotContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  
+}
+
+.screenShotContainerForBorder{
+  /* border: blue solid; */
+  background-image: linear-gradient(to right, rgba(0, 42, 179, 0.988) , rgb(155, 200, 255));
+  padding: 3vh;
+  border-radius: 20px;
+  height: fit-content;
+  box-shadow: 1px 13px 18px rgb(191, 191, 191);
+
+}
+
+.screenShotSize{
+  width:70vh;
+  max-width: 600px;
+  min-width: 200px;
+  border: 0px rgba(255, 0, 0, 0) solid;
+  border-radius: 10px;
+
+}
+.projectButtonContainer{
+  /* border: red solid; */
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.demoButtons{
+  text-decoration: none;
+  font-weight: 900;
+  padding: 9px 15px ;
+  font-size: 17px;
+  color:white;
+  font-weight: 700;
+  border-radius: 17px;
+  box-shadow: 2px 3px 5px rgb(216, 216, 216);
+  border: none;
+  margin: 10px 8px 6px 0;
+  /* border: 2px rgba(0, 0, 255, 0) solid; */
+  /* z-index: 2; */
+  background-image: linear-gradient(to right, rgba(4, 53, 126, 0.988) , rgb(32, 130, 165));
+  white-space: nowrap;
+}
+
+.demobuttons:hover{
+  
+
+
+}
+
+.githubDemo{
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+}
+
+/* CONTACT============ */
+
+.iconsInContact{
+  font-size: 60px;
+  /* border: red solid; */
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  
+}
+
+.iconsInContact a{
+  font-size: 60px;
+  text-decoration: none;
+  color: black;
+  
+}
+#contactContainer{
+  /* border: red solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+
+}
+
+
+
+@media only screen and (max-width: 599px){
+
+  .introductionTextContainer{
+    border: 2px rgb(105, 66, 66) solid;
+    margin-left: 0px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  /* about me */
+
+  #aboutMeContainer{
+    margin-left: 20px;
+    /* border: red solid; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
   }
+  
+  #aboutMeText{
+    padding: 30px;
+    background-image: linear-gradient(to right, rgb(130, 176, 255) , rgb(16, 185, 247));
+    border-radius: 20px;
+    color: white;
+    margin-left: 0px;
+  
+    /* border: blue solid; */
+    box-shadow: 1px 3px 18px rgb(191, 191, 191);
+    height: fit-content;
+    width: 550px;
+  }
+  #aboutMeText h1{
+    margin: 0 0 0 0;
+    /* border: red solid; */
+  }
+  
+  #aboutMeText p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .icons{
+   font-size: 60px;
+   
+  }
+  #projectsContainer{
+    height: fit-content;
+    /* border: blue solid; */
+    margin-left: 200px;
+  }
+  
+  #projectsTitle{
+    font-size: 60px;
+    margin-left: 7vw;
+    margin-bottom: 13vh;
+    
+  }
+  
+  .projectBoxContainer{
+    /* border: red solid; */
+    height: 50vh;
+    display: flex;
+    margin-bottom: 40vh;
+  }
+  
+  .infoContainer{
+    /* border: blue solid; */
+    width: 40%;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .infoContainerThreeWay{
+    /* border: brown solid; */
+    width: 300px;
+  
+  }
+  
+  .projectTitleContainer{
+    /* border: red solid; */
+    height: fit-content;
+    margin: 0 0 0 0;
+  }
+  .projectTitleContainer h3{
+    /* border: red solid; */
+    height: fit-content;
+    margin: 0 0 0 0;
+    font-size: 30px;
+  }
+  
+  
+  .projectTextContainer p{
+    /* border: red solid; */
+    font-weight: bold;
+    margin: 0 0 0 0;
+    text-align:left;
+    font-size: 20px;
+  
+  }
+  
+  
+  
+  
+  
+  .screenShotContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+  }
+  
+  .screenShotContainerForBorder{
+    /* border: blue solid; */
+    background-image: linear-gradient(to right, rgba(0, 42, 179, 0.988) , rgb(155, 200, 255));
+    padding: 3vh;
+    border-radius: 20px;
+    height: fit-content;
+    box-shadow: 1px 13px 18px rgb(191, 191, 191);
+  
+  }
+  
+  .screenShotSize{
+    width:70vh;
+    max-width: 600px;
+    min-width: 200px;
+    border: 0px rgba(255, 0, 0, 0) solid;
+    border-radius: 10px;
+  
+  }
+  .projectButtonContainer{
+    /* border: red solid; */
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  .demoButtons{
+    text-decoration: none;
+    font-weight: 900;
+    padding: 9px 15px ;
+    font-size: 17px;
+    color:white;
+    font-weight: 700;
+    border-radius: 17px;
+    box-shadow: 2px 3px 5px rgb(216, 216, 216);
+    border: none;
+    margin: 10px 8px 6px 0;
+    /* border: 2px rgba(0, 0, 255, 0) solid; */
+    /* z-index: 2; */
+    background-image: linear-gradient(to right, rgba(4, 53, 126, 0.988) , rgb(32, 130, 165));
+    white-space: nowrap;
+  }
+  
+  .demobuttons:hover{
+    
+  
+  
+  }
+  
+  .githubDemo{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+  }
+  
+
+
+
+
 }
