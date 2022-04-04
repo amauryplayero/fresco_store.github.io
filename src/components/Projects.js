@@ -20,7 +20,7 @@ export default function Projects() {
                         </div>
 
                         <div class="projectButtonContainer">
-                            <a class="demoButtons" href="https://www.youtube.com/watch?v=BKfhRIqHaEU">VIDEO DEMO</a>
+                            <a class="demoButtons" href="https://www.youtube.com/watch?v=BKfhRIqHaEU" target="_blank">VIDEO DEMO</a>
                             {/* <a class="demoButtons">VIDEO DEMO</a> */}
                             
                         </div>
@@ -53,8 +53,8 @@ export default function Projects() {
                         </div>
 
                         <div class="projectButtonContainer">
-                            <a class="demoButtons" href="https://adld-deploy-demo.herokuapp.com/">LIVE DEMO</a>
-                            <a class="demoButtons" href="https://youtu.be/vGo_wWAp6do">VIDEO DEMO</a>
+                            <a class="demoButtons" href="https://adld-deploy-demo.herokuapp.com/" target="_blank">LIVE DEMO</a>
+                            <a class="demoButtons" href="https://youtu.be/vGo_wWAp6do" target="_blank">VIDEO DEMO</a>
                         </div>
                            
                     </div>
