@@ -118,6 +118,7 @@ html{
   /* border: blue solid; */
   width: 40%;
   display: flex;
+  margin-top: 30px;
   /* flex-direction: column; */
   align-items: center;
   justify-content: center;
@@ -175,8 +176,8 @@ html{
 
 .screenShotSize{
   width:70vh;
-  max-width: 600px;
-  min-width: 200px;
+  /* max-width: 600px;
+  min-width: 200px; */
   border: 0px rgba(255, 0, 0, 0) solid;
   border-radius: 10px;
 
@@ -249,21 +250,25 @@ html{
 @media only screen and (max-width: 599px){
 
   .introductionTextContainer{
-    border: 2px rgb(105, 66, 66) solid;
+    /* border: 2px rgb(105, 66, 66) solid; */
     margin-left: 0px;
+    padding-left: 0px;
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
   }
 
+  #introductionText{
+    padding-left: 20px;
+  }
   /* about me */
 
   #aboutMeContainer{
-    margin-left: 20px;
+    margin-left: 0px;
     /* border: red solid; */
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,7 +286,7 @@ html{
     /* border: blue solid; */
     box-shadow: 1px 3px 18px rgb(191, 191, 191);
     height: fit-content;
-    width: 550px;
+    width: 70%;
   }
   #aboutMeText h1{
     margin: 0 0 0 0;
@@ -294,36 +299,43 @@ html{
   }
   
   .icons{
-   font-size: 60px;
-   
+   font-size:6vh;
+   /* width: fit-content; */
+   /* border: red solid; */
+   overflow-wrap:break-word;
   }
   #projectsContainer{
     height: fit-content;
+    width: 100%;
     /* border: blue solid; */
-    margin-left: 200px;
+    margin-left: 0px;
   }
   
   #projectsTitle{
-    font-size: 60px;
+    font-size: 56px;
+    margin-top: 10h;
     margin-left: 7vw;
-    margin-bottom: 13vh;
+    margin-bottom: 5vh;
     
   }
   
   .projectBoxContainer{
     /* border: red solid; */
-    height: 50vh;
+    height: 50%;
     display: flex;
-    margin-bottom: 40vh;
+    flex-direction: column-reverse;
+
+    margin-bottom: 10vh;
   }
   
   .infoContainer{
     /* border: blue solid; */
-    width: 40%;
+    width:100%;
     display: flex;
     /* flex-direction: column; */
     align-items: center;
     justify-content: center;
+
   }
   
   .infoContainerThreeWay{
@@ -336,6 +348,7 @@ html{
     /* border: red solid; */
     height: fit-content;
     margin: 0 0 0 0;
+
   }
   .projectTitleContainer h3{
     /* border: red solid; */
@@ -362,24 +375,28 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
+    /* padding-left:10px; */
+    /* padding-right: 10px; */
+    /* border: red solid; */
     
   }
   
   .screenShotContainerForBorder{
     /* border: blue solid; */
     background-image: linear-gradient(to right, rgba(0, 42, 179, 0.988) , rgb(155, 200, 255));
-    padding: 3vh;
+    padding: 2vh;
     border-radius: 20px;
     height: fit-content;
     box-shadow: 1px 13px 18px rgb(191, 191, 191);
-  
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
   .screenShotSize{
-    width:70vh;
-    max-width: 600px;
-    min-width: 200px;
+    width:100%;
+    /* height: 50%; */
+   
     border: 0px rgba(255, 0, 0, 0) solid;
     border-radius: 10px;
   
@@ -419,8 +436,69 @@ html{
     text-decoration: none;
     color: black;
   }
-  
 
+  #borgorContainer{
+    /* border: red solid; */
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: fit-content;
+    position:fixed;
+    /* padding-top: 10px; */
+  }
+  #borgorMenuBtn{
+    width: 15vh;
+  }
+  
+  #navBarContainer{
+    /* border: red solid; */
+    height:fit-content;
+    background-image: linear-gradient(to bottom, rgba(1, 18, 43, 0.988) , rgba(32, 130, 165, 0.954));
+
+    /* padding-left: 15vw; */
+    /* padding-right: 50vw; */
+    width: 101%;
+    height: 101%;
+    position: fixed;
+    top: 0;
+    left: 0vw;
+    top: 0;  
+    transition: all 1s ease-out;
+
+   
+  }
+ 
+  .navLink{
+    font-weight: bold;
+    font-size: 80px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    top: 4vh;
+    /* border:solid rgb(16, 185, 247) ; */
+    /* left: 2vw; */
+  }
+
+  #xButtonContainer{
+    /* border: solid blueviolet; */
+    height: fit-content;
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+  }
+  #navBarXButton{
+    width: 70px;
+    /* border:red solid; */
+    /* position: fixed; */
+
+  }
+  #navigationContainer{
+    /* border: red solid; */
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+  }
+ 
 
 
 
