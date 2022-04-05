@@ -21,6 +21,7 @@ export default function Projects() {
 
                         <div class="projectButtonContainer">
                             <a class="demoButtons" href="https://www.youtube.com/watch?v=BKfhRIqHaEU" target="_blank">VIDEO DEMO</a>
+                            <a class="demoButtons" href="https://frescostore.herokuapp.com/" target="_blank">LIVE DEMO</a>
                             {/* <a class="demoButtons">VIDEO DEMO</a> */}
                             
                         </div>
