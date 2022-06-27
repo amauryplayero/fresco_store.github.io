@@ -38,7 +38,45 @@ export default function Projects() {
             </div>
             
 {/* ------------------------END OF FIRST PROJECT------------------------ */}
-    <div class="projectBoxContainer">
+        <div class="projectBoxContainer">
+                <div class="infoContainer">
+                    <div class="infoContainerThreeWay">
+                        <div class="projectTitleContainer">
+                            <h3>Grade Filler<a href='https://github.com/amauryplayero/Violet-list' target="_blank" class="githubDemo"><i class="devicon-github-original-wordmark"></i></a></h3>
+                        </div>
+
+                        <div class="projectTextContainer">
+                            <p>
+                            Significantly reduced 70% of the workload of a low-income
+                            , low-personnel school administration by creating a React App
+                             that automates tasks that were usually done manually.
+                             This grade filler gathers grades from 
+                                different excel sheets, and returns a single 
+                                file with compiled and averaged grades.
+
+                            </p>
+                        </div>
+
+                        <div class="projectButtonContainer">
+                            <a class="demoButtons" href="https://main--dulcet-parfait-9875e0.netlify.app/" target="_blank">LIVE DEMO</a>
+                            <a class="demoButtons" href="https://www.linkedin.com/feed/update/urn:li:activity:6935655752015511552/" target="_blank">VIDEO DEMO</a>
+                        </div>
+                           
+                    </div>
+                </div>
+
+                <div class="screenShotContainer">
+                    <div class="screenShotContainerForBorder">
+                        <img class="screenShotSize" src="https://i.imgur.com/HkZYnvO.png"></img>
+                    </div>
+                </div>
+
+            </div>
+{/* /////////////////////////////////////// */}
+
+
+{/* /////////////////////////////////////// */}
+            <div class="projectBoxContainer">
                 <div class="infoContainer">
                     <div class="infoContainerThreeWay">
                         <div class="projectTitleContainer">
