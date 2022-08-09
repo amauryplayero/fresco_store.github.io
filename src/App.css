@@ -176,6 +176,8 @@ html{
 
 .screenShotSize{
   width:70vh;
+
+
   /* max-width: 600px;
   min-width: 200px; */
   border: 0px rgba(255, 0, 0, 0) solid;
@@ -501,5 +503,16 @@ html{
  
 
 
+
+}
+
+#leaveAMessageElement{
+  width:45vh;
+
+
+  /* max-width: 600px;
+  min-width: 200px; */
+  border: 0px rgba(255, 0, 0, 0) solid;
+  border-radius: 10px;
 
 }
